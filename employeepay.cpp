@@ -15,11 +15,11 @@ int main (){
   int normHours = 40; //40 hours is a normal work hours.
   int totalPay;
   int additionalTime;
-  float socialSecurity;
-  float fedIncome;
-  float stateIncome;
+  double socialSecurity;
+  double fedIncome;
+  double stateIncome;
   int medInsurance = 10; //Flat 10 dollars is for medical insurance.
-  float grossPay;
+  double grossPay;
 
   cout << "Enter number of hours worked: " << endl;
   cin >> workedHours;
